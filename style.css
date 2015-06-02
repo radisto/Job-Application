@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    font-family: Calibri, Arial;
+}
+
+#wrapper {
+    width: 600px;
+    margin: 20px;
+}
+
+.the-comment {
+    border-bottom: 1px solid lightgray;
+    padding-top: 10px;
+}
+
+.photo {
+    max-width: 50px;
+    max-height: 50px;
+    border-radius: 25px;
+    float: left;
+    margin-right: 10px;
+}
+
+.name {
+    color: rgb(25, 175, 200);
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.comment-wrapper {
+    margin-top: 15px;
+    padding: 15px;
+    border-left: 5px solid lightgray;
+}
+
+.icon {
+    color: rgb(25, 175, 200);
+}
+
+.report .icon {
+    color: brown;
+}
+
+.report {
+    float: right;
+}
+
+.buttons {
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+#add-comment {
+    padding: 15px;
+    border-left: 5px solid gray;
+}
+
+#add-comment span {
+    margin: 0 10px;
+    color: lightgray;
+}
+
+#add-comment span:nth-child(1) {
+    color: rgb(100, 100, 100);
+}
+
+#search {
+    width: 550px;
+    padding: 10px;
+    border: 1px solid lightgray;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+::-webkit-input-placeholder { 
+    font-style:italic;
+    font-size: 16px;
+}
+
+::-moz-placeholder {
+    font-style:italic;
+    font-size: 16px;
+}
+
+:-ms-input-placeholder {
+    font-style:italic;
+    font-size: 16px;
+}
+
+input:-moz-placeholder {
+    font-style:italic;
+    font-size: 16px;
+}
+
+.date {
+    font-size: 12px;
+    color: gray;
+}
+
+#add-comment div {
+    font-size: 12px;
+}
+
+.like, .share, .comment {
+    margin-right: 15px;
+}
