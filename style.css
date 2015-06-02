@@ -60,6 +60,11 @@ body {
     color: lightgray;
 }
 
+#add-comment span:hover {
+    color: black;
+    cursor: pointer;
+}
+
 #add-comment span:nth-child(1) {
     color: rgb(100, 100, 100);
 }
@@ -103,4 +108,10 @@ input:-moz-placeholder {
 
 .like, .share, .comment {
     margin-right: 15px;
+}
+
+.like:hover, .share:hover, .comment:hover,
+    .delete:hover, .report:hover {
+    color: rgb(25, 175, 200);
+    cursor: pointer;
 }
